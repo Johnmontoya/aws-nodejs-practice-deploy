@@ -7,6 +7,6 @@ app.get('/api/get', (req, res) => {
     res.send({ message: "Welcome to Nodejs with AWS"});
 });
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`)
 });
